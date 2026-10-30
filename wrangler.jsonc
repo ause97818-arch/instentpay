@@ -1,0 +1,14 @@
+{
+  "name": "instentpay",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "kv_namespaces": [
+    { "binding": "LINKS", "id": "63b80d1b03484788b57d2aab41cb81f1" }
+  ]
+}
